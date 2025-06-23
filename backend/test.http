@@ -1,0 +1,45 @@
+### Register User
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "name": "Admin User",
+  "email": "admin@example.com",
+  "password": "password123",
+  "role": "admin"
+}
+
+###
+
+### Register User (Role User biasa)
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "name": "Regular User",
+  "email": "user@example.com",
+  "password": "userpass123",
+  "role": "user"
+}
+
+###
+
+### Login Admin
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "password123"
+}
+
+###
+
+### Login User
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "userpass123"
+}
