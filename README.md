@@ -4,10 +4,10 @@
 **Client:** Svelte, TailwindCSS
 
 **Server:** Gin, Gorm
-
+###
 ## To run tests, run the following command:
 ### Database
-- Jalankan Laragon
+- running Laragon
 
 ### Frontend
 
