@@ -4,7 +4,7 @@
 **Client:** Svelte, TailwindCSS
 
 **Server:** Gin, Gorm
-###
+
 ## To run tests, run the following command:
 ### Database
 - running Laragon
